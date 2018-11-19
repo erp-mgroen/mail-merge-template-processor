@@ -1,0 +1,2 @@
+# mailMergeTemplateProcessor
+MailMergeTemplateProcessor for PHPOffice/PHPWord
