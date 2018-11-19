@@ -1,0 +1,34 @@
+{
+  "name": "erp-mgroen/mail-merge-template-processor",
+  "description": "Mail-merge-template-processor for PHPOffice/PHPWord",
+  "minimum-stability": "stable",
+  "type": "template-processor-for-PHPWord",
+  "keywords": [
+    "php",
+    "PHPOffice",
+    "PHPWord",
+    "Mail-merge",
+    "template-processor"
+  ],
+  "homepage": "https://github.com/erp-mgroen/mail-merge-template-processor",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "erp-mgroen",
+      "role": "Organization"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/erp-mgroen/mail-merge-template-processor/issues",
+    "source": "https://github.com/erp-mgroen/mail-merge-template-processor"
+  },
+  "require": {
+    "php": ">=5.3.3",
+    "PHPOffice/phpword": "^0.15.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PhpOffice\\PhpWord\\": "src"
+    }
+  }
+}
